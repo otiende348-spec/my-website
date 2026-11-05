@@ -42,44 +42,70 @@
     <tr>
             <th colspan="4">&copy;BIT 202</th>
     </tr>
-</table>
-        </tr>
-               </table><br><br>
-               
-               <fieldset>
-              <form>
-                  <legend><b>Personal information</b></legend>
-                <lable>Sur name</lable>
-                <input type="text"><br>
-               <lable>first name</lable> <input type="text"><br>
-               <lable>other names</lable> <input type="text"><br>
-               <lable>gender</lable>
-                <input type="radio"><lable>male</lable>
-                <input type="radio"><lable>female</lable><br>
-                <lable>marital status</lable><select><option>select-status</option></select><br>
-                <lable>date of birth</lable><input type="text"><br>
-                <lable>place of birth</lable> <input type="text"><br>
-                <lable>mothers name</lable> <input type="text"><br>
-                <lable>fathers name</lable> <input type="text"><br>
-                <lable>number of dependands</lable><select><option>select-no. of dependands</option></select><br>
-                <lable>level of education</lable> <input type="text"><br><br>
-                </form>
-               
-<fieldset>
-    <legend>
-        <b>security information</b>
-    </legend>
-    <form>
-    
-                <lable>user name</lable> <input type="text"><br>
-                <lable>password</lable> <input type="password"><br>
-                <lable>re-type password</lable> <input type="password"><br>
-                <lable>security question</lable><select><option>select-question</option></select><br>
-                <label>answer <input type="text"></label>
-                </form>
-</fieldset>
-               
-               </fieldset>
+<form>
+  <fieldset>
+    <legend><b>Personal information</b></legend>
+
+    <table>
+      <tr><td>Surname</td><td><input type="text"></td></tr>
+      <tr><td>First name</td><td><input type="text"></td></tr>
+      <tr><td>Other names</td><td><input type="text"></td></tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender"> Male
+          <input type="radio" name="gender"> Female
+        </td>
+      </tr>
+      <tr><td>Marital status</td><td>
+        <select>
+          <option>Select-status</option>
+          <option>Single</option>
+          <option>Married</option>
+        </select>
+      </td></tr>
+      <tr><td>Date of birth</td><td><input type="date"></td></tr>
+      <tr><td>Place of birth</td><td><input type="text"></td></tr>
+      <tr><td>Mothers name</td><td><input type="text"></td></tr>
+      <tr><td>Fathers name</td><td><input type="text"></td></tr>
+      <tr><td>Number of dependants</td><td>
+        <select>
+          <option>Select-no. of dependants</option>
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </td></tr>
+      <tr><td>Level of education</td><td><input type="text"></td></tr>
+    </table>
+
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+    <legend><b>Security information</b></legend>
+
+    <table>
+      <tr><td>User name</td><td><input type="text"></td></tr>
+      <tr><td>Password</td><td><input type="password"></td></tr>
+      <tr><td>Re-type password</td><td><input type="password"></td></tr>
+      <tr><td>Security question</td><td>
+        <select>
+          <option>Select-question</option>
+          <option>What is your mother's name?</option>
+          <option>What is your pet's name?</option>
+        </select>
+      </td></tr>
+      <tr><td>Answer</td><td><input type="text"></td></tr>
+    </table>
+
+  </fieldset>
+
+  <br>
+  <button type="submit">Submit</button>
+</form>
                
     </body>
 </html>
