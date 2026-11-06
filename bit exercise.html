@@ -3,8 +3,22 @@
     <head>
         <title>BIT 201</title>
     </head>
+    <style>
+      button {
+    background-color:#3399ff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: top 10px;
+        padding: 10px 20px;
+
+      }
+
+    </style>
     <body>
-       <table border="1" cellspacing="0" cellpadding="6" width="100">
+       <table border="1" cellspacing="0" cellpadding="6" width="70%" align="center">
     <tr>
 <th colspan="4"><i>My Tech Stock pick</i></th>
 
@@ -42,8 +56,9 @@
     <tr>
             <th colspan="4">&copy;BIT 202</th>
     </tr>
+    </table>
 <form>
-  <fieldset>
+  <fieldset style="width: 50%; margin: auto; border: 2px solid blue; padding: 20px; border-radius: 10px;">
     <legend><b>Personal information</b></legend>
 
     <table>
@@ -79,12 +94,13 @@
       </td></tr>
       <tr><td>Level of education</td><td><input type="text"></td></tr>
     </table>
+    </fieldset>
 
-  </fieldset>
 
-  <br>
 
-  <fieldset>
+
+
+  <fieldset style="width: 50%; margin: auto; border: 2px solid blue; padding: 20px; border-radius: 10px;">
     <legend><b>Security information</b></legend>
 
     <table>
@@ -100,6 +116,10 @@
       </td></tr>
       <tr><td>Answer</td><td><input type="text"></td></tr>
     </table>
+    <div class="center">
+      <button type="button">previous</button>
+      <button type="submit">next</button>
+    </div>
 
   </fieldset>
 </form>
